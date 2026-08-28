@@ -1,6 +1,11 @@
 # Maven build output
 target/
 
+# Model weights under assets/mdl are ignored by default (large LLM/audio
+# models). Explicitly allow known small ones.
+assets/mdl/*
+!assets/mdl/silero/
+
 # Compiled class file
 *.class
 

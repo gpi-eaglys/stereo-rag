@@ -18,7 +18,7 @@ import java.util.Map;
  */
 public final class SileroVadDetector implements VoiceActivityScorer {
 
-    private static final String MODEL_RESOURCE = "/mdl/siler/silero-vad_v5.onnx";
+    private static final String MODEL_RESOURCE = "/mdl/silero/silero-vad_v5.onnx";
     private static final int STATE_LAYERS = 2;
     private static final int STATE_HIDDEN_SIZE = 128;
 

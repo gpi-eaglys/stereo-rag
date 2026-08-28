@@ -39,8 +39,8 @@
         <directory>src/main/resources</directory>
       </resource>
       <resource>
-        <directory>${project.basedir}/../../assets/mdl</directory>
-        <targetPath>mdl</targetPath>
+        <directory>${project.basedir}/../../assets/mdl/silero</directory>
+        <targetPath>mdl/silero</targetPath>
       </resource>
     </resources>
     <testResources>

@@ -15,6 +15,7 @@
   <modules>
     <module>common</module>
     <module>modules/vad</module>
+    <module>modules/llm</module>
   </modules>
 
   <properties>
@@ -22,6 +23,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <onnxruntime.version>1.22.0</onnxruntime.version>
+    <llama.version>4.2.0</llama.version>
     <junit.version>5.11.3</junit.version>
   </properties>
 
@@ -31,6 +33,12 @@
         <groupId>com.microsoft.onnxruntime</groupId>
         <artifactId>onnxruntime</artifactId>
         <version>${onnxruntime.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>de.kherud</groupId>
+        <artifactId>llama</artifactId>
+        <version>${llama.version}</version>
       </dependency>
 
       <dependency>
