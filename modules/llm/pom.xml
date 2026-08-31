@@ -19,6 +19,10 @@
 
   <dependencies>
     <dependency>
+      <groupId>com.eaglys.stereorag</groupId>
+      <artifactId>stereo-rag-common</artifactId>
+    </dependency>
+    <dependency>
       <groupId>de.kherud</groupId>
       <artifactId>llama</artifactId>
     </dependency>

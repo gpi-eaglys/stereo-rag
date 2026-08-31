@@ -23,7 +23,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <onnxruntime.version>1.22.0</onnxruntime.version>
-    <llama.version>4.2.0</llama.version>
+    <llama.version>4.2.0-gemma4-local</llama.version>
     <junit.version>5.11.3</junit.version>
   </properties>
 
